@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"svn.ignoreMissingSvnWarning": true,
+		"editor.fontSize": 16,
+		"workbench.colorTheme": "Default Light+"
+	}
+}

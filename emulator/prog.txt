@@ -1,0 +1,10 @@
+         addi $s1 $zero 99
+         addi $s2 $zero 77
+         add  $s0 $zero $zero
+loop:    andi $t1 $s1 1
+         beq $t1 $zero skipadd
+         add $s0 $s0 $s2
+skipadd: srl $s1 $s1 1
+         sll $s2 $s2 1
+         bne $s1 $zero loop
+		 nop
